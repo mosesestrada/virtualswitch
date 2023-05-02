@@ -2,7 +2,7 @@
  <img src="https://i.imgur.com/WsQoR9W.jpg" height="80%" width="80%" alt="VM logo"/>
 </p>
 
-<h1>Creating a DHCP relay</h1>
+<h1>Creating a Virtual Switch</h1>
 
 
 <h2>Description</h2>
@@ -26,48 +26,43 @@ For today's lesson, we're going to focus on creating two of these bad boys. We'l
 
 
 <br />
-From Server Manager, select Tools > Routing and Remote Access.
-Expand IPv4.
+From Server Manager, select Tools > Hyper-V Manager.
  <br/>
-<img src="https://i.imgur.com/S2CseAY.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/B7SxtGm.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Expand IPv4. Right-click General and select New Routing Protocol.
+Underneath Hyper-V manager, highlight and right-click your host, in this demonstration it's CORPSERVER and select Virtual Switch Manager.
  <br/>
-<img src="https://i.imgur.com/sMHK1Or.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/cwHMgol.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Select DHCP Relay Agent and then select OK.
+With New virtual network switch highlighted, select Private.
+Select Create Virtual Switch.
 
  <br/>
-<img src="https://i.imgur.com/KVEBXfg.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/ajPjZaz.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-From the left pane, right-click DHCP Relay Agent and select New Interface.
-Select NetTeam and then select OK.
+In the Name field, use Switch 1 or name it whatever you'd like and select Apply.
 
 <br/>
-<img src="https://i.imgur.com/JlEw6TU.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/J0bG2OG.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Make sure Relay DHCP packets is selected.
-Set the boot threshold to 0 (zero).
-Select OK.
+You can also reach the Virtual Machine manager under the actions pane. See picture below.
+ <br/>
+<img src="https://i.imgur.com/KbEAtDa.png" height="80%" width="80%" alt="DHCP"/>
+<br />
+<br />
+This next virtual switch is going to be external. Highlight it and click "create virtual switch"
 
  <br/>
-<img src="https://i.imgur.com/lPYyMCk.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/6waqImd.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Right-click DHCP Relay Agent and select Properties.
-
+Name your virtual switch and press okay. great we are finished! good job
  <br/>
-<img src="https://i.imgur.com/GynvPMW.png" height="80%" width="80%" alt="DHCP"/>
-<br />
-<br />
-In the Server address field, enter the IP address of the DHCP server. The IP address of the DHCP server I am targeting is 192.168.0.14.
-Select Add and then select OK.
- <br/>
-<img src="https://i.imgur.com/GEFKCol.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/gjcMXTu.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 Lastly we verify we're getting an IP address from the DHCP server. I do a quick /ipconfig at the powershell prompt and get an APIPA address. No worries, all I have to do is follow up with a /ipconfig /release & an ipconfig /renew and VIOLA I get a functional IP address.
@@ -76,9 +71,6 @@ Lastly we verify we're getting an IP address from the DHCP server. I do a quick 
 
 <br />
 <br />
-Hope you enjoyed this demonstration.
- <br/>
-<img src="https://i.imgur.com/dJzDtPN.jpg" height="80%" width="80%" alt="DHCP"/>
 
  
 </p>
