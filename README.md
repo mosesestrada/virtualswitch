@@ -6,7 +6,7 @@
 
 
 <h2>Description</h2>
-In our previous demonstration, we dabbled in the world of virtual machines. Today, we're going to take it up a notch and create not just one, two virtual switches!
+In our previous demonstration, we dabbled in the world of virtual machines. Today, we're going to take it up a notch and create not just one, but two virtual switches!
 
 Think of a virtual switch as the glue that binds virtual machines together. It functions just like its physical counterpart, except it links virtual machines instead of physical devices.
 
