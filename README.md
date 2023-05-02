@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://i.imgur.com/WsQoR9W.jpg" height="80%" width="80%" alt="VM logo"/>
+ <img src="https://i.imgur.com/7qSYnb1.jpg" height="80%" width="80%" alt="VM logo"/>
 </p>
 
 <h1>Creating a Virtual Switch</h1>
@@ -60,15 +60,14 @@ This next virtual switch is going to be external. Highlight it and click "create
 <img src="https://i.imgur.com/6waqImd.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Name your virtual switch and press okay. great we are finished! good job
+Name your virtual switch and press okay. Great, we are finished! Good job!
  <br/>
 <img src="https://i.imgur.com/gjcMXTu.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Lastly we verify we're getting an IP address from the DHCP server. I do a quick /ipconfig at the powershell prompt and get an APIPA address. No worries, all I have to do is follow up with a /ipconfig /release & an ipconfig /renew and VIOLA I get a functional IP address.
+I hope you enjoyed this demonstration.
  <br/>
-<img src="https://i.imgur.com/kLulX91.png" height="80%" width="80%" alt="DHCP"/>
-
+<img src="https://i.imgur.com/pS8SYQI.jpg" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 
