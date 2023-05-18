@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://i.imgur.com/7qSYnb1.jpg" height="80%" width="80%" alt="VM logo"/>
+ <img src="https://i.imgur.com/xw74U3C.jpg" height="80%" width="80%" alt="VM logo"/>
 </p>
 
 <h1>Creating a Virtual Switch</h1>
@@ -28,46 +28,46 @@ For today's lesson, we're going to focus on creating two of these bad boys. We'l
 <br />
 From Server Manager, select Tools > Hyper-V Manager.
  <br/>
-<img src="https://i.imgur.com/B7SxtGm.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/LP4r2Ej.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 Underneath Hyper-V manager, highlight and right-click your Hyper-V host server, in this demonstration it's CORPSERVER and select Virtual Switch Manager.
  <br/>
-<img src="https://i.imgur.com/cwHMgol.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/SkpS8rB.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 With New virtual network switch highlighted, select Private.
 Select Create Virtual Switch.
 
  <br/>
-<img src="https://i.imgur.com/ajPjZaz.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/TpJ63PL.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 In the Name field, use Switch 1 or name it whatever you'd like and select Apply.
 
 <br/>
-<img src="https://i.imgur.com/J0bG2OG.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/D2CkceO.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 You can also reach the Virtual Machine manager under the actions pane. See picture below.
  <br/>
-<img src="https://i.imgur.com/KbEAtDa.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/lyg4DgM.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 This next virtual switch is going to be external. Highlight it and click "create virtual switch"
 
  <br/>
-<img src="https://i.imgur.com/6waqImd.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/7PR6sCc.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 Name your virtual switch and press okay. Great, we are finished! Good job!
  <br/>
-<img src="https://i.imgur.com/gjcMXTu.png" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/WSbw1Tx.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 I hope you enjoyed this demonstration.
  <br/>
-<img src="https://i.imgur.com/pS8SYQI.jpg" height="80%" width="80%" alt="DHCP"/>
+<img src="https://i.imgur.com/aDDnRGN.jpg" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
 
