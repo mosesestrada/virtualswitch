@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://i.imgur.com/xw74U3C.jpg" height="80%" width="80%" alt="VM logo"/>
+ <img src="https://i.imgur.com/kAZw8IK.jpg" height="80%" width="80%" alt="VM logo"/>
 </p>
 
 <h1>Creating a Virtual Switch</h1>
