@@ -31,7 +31,7 @@ From Server Manager, select Tools > Hyper-V Manager.
 <img src="https://i.imgur.com/LP4r2Ej.png" height="80%" width="80%" alt="DHCP"/>
 <br />
 <br />
-Underneath Hyper-V manager, highlight and right-click your Hyper-V host server, in this demonstration it's CORPSERVER and select Virtual Switch Manager.
+In the Hyper-V Manager, highlight and right-click your Hyper-V host server. In this demonstration, the server is named CORPSERVER. From the context menu, select 'Virtual Switch Manager
  <br/>
 <img src="https://i.imgur.com/SkpS8rB.png" height="80%" width="80%" alt="DHCP"/>
 <br />
